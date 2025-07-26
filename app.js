@@ -8,6 +8,7 @@ function cargar() {
   } else {
     console.log("fondo para desktop");
     imagen.src = "images/background-pattern-desktop.svg";
+    imagen.style.width = "100%";
   }
 }
 
